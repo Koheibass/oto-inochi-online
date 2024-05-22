@@ -48,17 +48,14 @@ export const AppNav = () => {
 
 
     return (
-        <nav className="top-0 z-10 w-full sticky bg-[#ffffff]">
+        <nav className="top-0 z-10 w-full sticky bg-[#ffeeee]">
             <div>
-                <div className="flex items-center h-20">
+                <div className="flex items-center h-12">
                     <HeaderLeft />
                     <div className="flex items-center justify-end">
-                        <p className='text-[20px] text-[#937a43]'>
-                            東京都 練馬区 平和台駅から徒歩５分
-                        </p>
                         {
                             lang === 'ja' &&
-                            <p className='text-[20px] pl-10 text-[#937a43]'></p>
+                            <HeaderMenu />
                         }
                         {
                             lang === 'en' &&
