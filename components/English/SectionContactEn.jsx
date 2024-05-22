@@ -6,7 +6,7 @@ export const SectionContactEn = () => {
             <SectionHeader id="contact" title="Contact" titleEn="contact" />
             <div>
                 <div className="text-center my-4 text-[80%] text-[#937a43] lg:text-[100%]">For requests or inquiries regarding Pianist Rina Akahoshi, please contact us here.</div>
-                <form action="/api/contact" method="get" noValidate id="contact-form" className="gap-4 grid-cols-1 grid text-[#937a43]">
+                <form action="https://hyperform.jp/api/cMkccTrF" method="get" noValidate id="contact-form" className="gap-4 grid-cols-1 grid text-[#937a43]">
                     <div>
                         <label htmlFor="name" className="font-medium block bg-inherit text-[.875rem] leading-none mb-2">Name</label>
                         <input className="border rounded w-full py-2 px-2 flex m-auto outline outline-1" id="name" name="name" />
@@ -29,7 +29,7 @@ export const SectionContactEn = () => {
                         <label htmlFor="message" className="font-medium block bg-inherit text-[.875rem] leading-none mb-2">Content of your inquiry</label>
                         <textarea className="border rounded w-full flex m-auto lg:h-20 px-2 py-2 outline outline-1" id="message" name="message"></textarea>
                     </div>
-                    <input type="hidden" name="favorite_color" value="" />
+
                     <button className="font-medium text-sm py-2 px-4 justify-center items-center bg-[#fcafaf] rounded-lg w-full mt-3 text-white" type="submit" data-comform-touched="true">Submit</button>
                 </form>
             </div>
